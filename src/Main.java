@@ -20,6 +20,9 @@ import entidad.actividad6.Leon;
 import entidad.actividad7.Auricular;
 import entidad.actividad7.Smartwatch;
 import entidad.actividad7.Telefono;
+import entidad.actividad8.CapitanAmerica;
+import entidad.actividad8.DoctorStrange;
+import entidad.actividad8.Thor;
 
 public class Main {
     public static void main(String[] args) {
@@ -183,6 +186,24 @@ public class Main {
                 true
         );
         smartwatch1.mostrarEstado();
+
+        Thor thor1 = new Thor(
+                95,
+                "Mjolnir"
+        );
+        thor1.mensaje();
+
+        DoctorStrange doctor1 = new DoctorStrange(
+                88,
+                "Sello de los Vishanti"
+        );
+        doctor1.mensaje();
+
+        CapitanAmerica capitan1 = new CapitanAmerica(
+                80,
+                70
+        );
+        capitan1.mensaje();
 
     }
 }
