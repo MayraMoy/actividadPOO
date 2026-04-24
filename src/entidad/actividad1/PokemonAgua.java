@@ -1,7 +1,7 @@
-package entidad;
+package entidad.actividad1;
 
 /* PokemonAgua tendrá profundidadNado (en metros) */
-public class PokemonAgua extends Pokemon{
+public class PokemonAgua extends Pokemon {
     private String profunidadNado;
 
     public PokemonAgua(String nombre, String tipo, int nivel, int puntosDeVida, String profunidadNado) {

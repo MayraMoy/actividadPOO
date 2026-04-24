@@ -1,4 +1,4 @@
-package entidad;
+package entidad.actividad1;
 
 /* PokemonFuego tendrá temperaturaLlama (en grados). */
 public class PokemonFuego extends Pokemon {

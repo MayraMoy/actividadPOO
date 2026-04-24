@@ -1,4 +1,4 @@
-package entidad;
+package entidad.actividad2;
 
 /*
     PeliculaTerror tendrá nivelSuspenso (puntaje del 1 al 10) y cantidadSustos (cantidad
@@ -7,7 +7,7 @@ package entidad;
     o calcularDuracionTotal() = 80 + cantidadSustos * 3.0 (duración estimada en
     minutos)
 */
-public class PeliculaTerror extends Pelicula{
+public class PeliculaTerror extends Pelicula {
     private double nivelSuspenso;
     private int cantidadSustos;
 

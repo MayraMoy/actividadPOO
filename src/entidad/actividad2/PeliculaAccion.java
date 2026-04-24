@@ -1,4 +1,4 @@
-package entidad;
+package entidad.actividad2;
 
 /*
     PeliculaAccion tendrá efectosEspeciales (puntaje del 1 al 10)

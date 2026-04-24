@@ -1,4 +1,4 @@
-package entidad;
+package entidad.actividad1;
 
 /*
     Crear una superclase Pokemon con los atributos:

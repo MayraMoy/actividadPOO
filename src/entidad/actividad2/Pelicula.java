@@ -1,4 +1,4 @@
-package entidad;
+package entidad.actividad2;
 
 /*
     Crear una clase abstracta Pelicula con los atributos titulo y anioEstreno. Definir dos

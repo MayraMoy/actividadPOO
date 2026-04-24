@@ -1,4 +1,4 @@
-package entidad;
+package entidad.actividad2;
 
 /*
     PeliculaAnimada tendrá nivelAnimacion (puntaje del 1 al 10) y cantidadPersonajes.
@@ -6,7 +6,7 @@ package entidad;
     - calcularDuracionTotal() = 75 + cantidadPersonajes * 1.5 (duración estimada
     en minutos)
 */
-public class PeliculaAnimada extends Pelicula{
+public class PeliculaAnimada extends Pelicula {
     private double nivelAnimacion;
     private int cantidadPersonajes;
 

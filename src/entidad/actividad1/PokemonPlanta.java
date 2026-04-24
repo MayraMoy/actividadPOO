@@ -1,4 +1,4 @@
-package entidad;
+package entidad.actividad1;
 
 /* PokemonPlanta tendrá cantidadEsporas. */
 public class PokemonPlanta extends Pokemon {

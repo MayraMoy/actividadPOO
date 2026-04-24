@@ -1,4 +1,25 @@
-import entidad.*;
+import entidad.actividad1.PokemonAgua;
+import entidad.actividad1.PokemonFuego;
+import entidad.actividad1.PokemonPlanta;
+import entidad.actividad2.PeliculaAccion;
+import entidad.actividad2.PeliculaAnimada;
+import entidad.actividad2.PeliculaTerror;
+import entidad.actividad3.Auto;
+import entidad.actividad3.Camion;
+import entidad.actividad3.Moto;
+import entidad.actividad4.EmpleadoComisionista;
+import entidad.actividad4.EmpleadoMensual;
+import entidad.actividad4.EmpleadoPorHoras;
+import entidad.actividad5.Accesorio;
+import entidad.actividad5.Consola;
+import entidad.actividad5.Producto;
+import entidad.actividad5.Videojuego;
+import entidad.actividad6.Aguila;
+import entidad.actividad6.Delfin;
+import entidad.actividad6.Leon;
+import entidad.actividad7.Auricular;
+import entidad.actividad7.Smartwatch;
+import entidad.actividad7.Telefono;
 
 public class Main {
     public static void main(String[] args) {
@@ -36,5 +57,132 @@ public class Main {
                 12
         );
         pelicula3.mostrarFicha();
+
+        Auto auto1 = new Auto(
+                "Toyota",
+                "Corolla",
+                2022,
+                180,
+                4
+        );
+        auto1.describir();
+
+        Moto moto1 = new Moto(
+                "Honda",
+                "CB500",
+                2021,
+                160,
+                true
+        );
+        moto1.describir();
+
+        Camion camion1 = new Camion(
+                "Mercedes-Benz",
+                "Actros",
+                2020,
+                120,
+                20,
+                300
+        );
+        camion1.describir();
+
+        EmpleadoMensual empleado1 = new EmpleadoMensual(
+                "Carlos",
+                "Garcia",
+                "EMP-001",
+                "mensual",
+                35000
+        );
+        empleado1.mostrarLiquidacion();
+
+        EmpleadoPorHoras empleado2 = new EmpleadoPorHoras(
+                "Laura",
+                "Martínez",
+                "EMP-002",
+                "Por horas",
+                9,
+                2000
+        );
+        empleado2.mostrarLiquidacion();
+
+        EmpleadoComisionista empleado3 = new EmpleadoComisionista(
+                "Rodrigo",
+                "Perez",
+                "EMP-003",
+                "Por comision",
+                35000,
+                20,
+                8
+        );
+        empleado3.mostrarLiquidacion();
+
+        Videojuego producto1 = new Videojuego(
+                "The Legend of Zelda: Breath of the Wild",
+                59.99,
+                25,
+                "Aventura",
+                12
+        );
+        producto1.mostrarFicha();
+
+        Consola producto2 = new Consola(
+                "PlayStation 5",
+                499.99,
+                8,
+                "PS5",
+                1
+        );
+        producto2.mostrarFicha();
+
+        Accesorio producto3 = new Accesorio(
+                "FIFA 25",
+                44.99,
+                40,
+                "ps5"
+        );
+        producto3.mostrarFicha();
+
+        Leon animal1 = new Leon(
+                "Simba",
+                "León africano",
+                5,
+                "Grande"
+        );
+        animal1.presentarse();
+
+        Delfin animal2 = new Delfin(
+                "Flipper",
+                "Delfín mular",
+                3,
+                true
+        );
+        animal2.presentarse();
+
+        Aguila animal3 = new Aguila(
+                "Zeus",
+                "Águila real",
+                7,
+                210
+        );
+        animal3.presentarse();
+
+        Telefono telefono1 = new Telefono(
+                "Samsung Galaxy S24",
+                12345678
+        );
+        telefono1.mostrarEstado();
+
+        Auricular auricular1 = new Auricular(
+                "Sony WH-1000XM5",
+                "Bluetooth"
+        );
+        auricular1.mostrarEstado();
+
+        Smartwatch smartwatch1 = new Smartwatch(
+                "Apple Watch SE",
+                true
+        );
+        smartwatch1.mostrarEstado();
+
     }
 }
