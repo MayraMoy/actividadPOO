@@ -11,12 +11,12 @@ public class Moto extends Vehiculo {
         this.tieneCajuela = tieneCajuela;
     }
     public void hacerCaballito(){
-        return;
+        System.out.println("Se empina sobre la rueda trasera! ");
     }
 
     @Override
     public void describir(){
         super.describir();
-        System.out.println("Se empina sobre la rueda trasera! ");
+        hacerCaballito();
     }
 }

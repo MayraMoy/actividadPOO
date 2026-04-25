@@ -1,5 +1,5 @@
 package entidad.actividad3;
-/* Auto tendrá cantidadPuertas y un metodo abrirBaul() que imprima un mensaje. */
+/* Auto tendra cantidadPuertas y un metodo abrirBaul() que imprima un mensaje. */
 
 public class Auto extends Vehiculo {
     private int cantidadDePuertas;
@@ -10,12 +10,12 @@ public class Auto extends Vehiculo {
     }
 
     public void abrilBaul(){
-        return;
+        System.out.println("Se abre el baul del auto ");
     }
 
     @Override
     public void describir(){
         super.describir();
-        System.out.println("Se abre el baul del auto ");
+        abrilBaul();
     }
 }

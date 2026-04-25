@@ -12,7 +12,6 @@ import entidad.actividad4.EmpleadoMensual;
 import entidad.actividad4.EmpleadoPorHoras;
 import entidad.actividad5.Accesorio;
 import entidad.actividad5.Consola;
-import entidad.actividad5.Producto;
 import entidad.actividad5.Videojuego;
 import entidad.actividad6.Aguila;
 import entidad.actividad6.Delfin;
